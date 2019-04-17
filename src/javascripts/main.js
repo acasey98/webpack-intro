@@ -1,3 +1,8 @@
 import '../styles/main.scss';
+import characters from './components/characters/characters';
 
-console.error('jserino');
+const init = () => {
+  characters.getData();
+};
+
+init();
